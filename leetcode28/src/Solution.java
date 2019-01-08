@@ -11,7 +11,7 @@ class Solution {
         char[] cn = needle.toCharArray(); if (cn.length == 0)
             return 0;
         char[] ch = haystack.toCharArray();
-        for (int i = 0; i < ch.length - cn.length ; ++i) {
+        for (int i = 0; i < ch.length - cn.length  ; ++i) {
             for (int j = 0; j < cn.length; ++j) {
                 if (ch[i + j] != cn[j])
                     break;
